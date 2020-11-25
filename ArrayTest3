@@ -1,0 +1,20 @@
+/** file name : ArrayTest3.java
+* description : 1차배열연습문제 복습(3)
+* email : yunduri22@gmail.com
+*/
+
+public class ArrayTest3{
+    public static void main(String[] args) {
+        boolean[] checkList = {true, false, false, true, false};
+        boolean[] tmp = new boolean[checkList.length];
+
+        for(int i = 0; i < checkList.length; i++){
+            if(checkList[i] == false){
+                tmp[i] = true;
+            }else{
+                tmp[i] = false;
+            }
+            System.out.println(tmp[i]);
+        }
+    }
+}
